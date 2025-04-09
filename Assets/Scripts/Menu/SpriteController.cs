@@ -17,7 +17,7 @@ public class SpriteController : MonoBehaviour
             Sprite[] all = Resources.LoadAll<Sprite>(imageName); // es para leer todos los sprites que vayan apareciendo en carpeta
             foreach (var s in all) // 
             {
-                if (s.name == spriteName) // 
+                if (s.name == spriteName) // si el nombre de la imagen es igual al nombre del sprite
                 {
                     return s;
                 }

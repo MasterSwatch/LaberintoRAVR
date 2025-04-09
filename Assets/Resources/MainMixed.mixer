@@ -38,7 +38,7 @@ AudioMixerController:
   - guid: 1e9737e9eeeb70d4c8288452e98197da
     name: Master
   - guid: 5151dc1c036327d42848f6127cf87aaa
-    name: "M\xFAsica"
+    name: Musica
   - guid: f207791f761007041ac060b106dbd832
     name: Sonidos
   m_AudioMixerGroupViews:

@@ -1,0 +1,466 @@
+fileFormatVersion: 2
+guid: 6c6f2526b8a045849aa1aa28b2ca4c85
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: baile-victoria_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1320
+        width: 500
+        height: 440
+      alignment: 9
+      pivot: {x: 0.9403945, y: 0.54216284}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a673bf32fa35b6740b17ed9aed0053e2
+      internalID: 1382539995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baile-victoria_1
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1320
+        width: 500
+        height: 440
+      alignment: 9
+      pivot: {x: 0.9343271, y: 0.5427845}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c188f7e21a36a284eacbf54950145380
+      internalID: -245741026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baile-victoria_2
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1320
+        width: 500
+        height: 440
+      alignment: 9
+      pivot: {x: 0.9305193, y: 0.543009}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2072f0161be4d9c41ac771171056a636
+      internalID: 869857335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baile-victoria_3
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1320
+        width: 500
+        height: 440
+      alignment: 9
+      pivot: {x: 0.9333396, y: 0.54161406}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41bb28671116f6840ae5b3b9c130736f
+      internalID: 388347873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baile-victoria_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 880
+        width: 500
+        height: 440
+      alignment: 9
+      pivot: {x: 0.9455466, y: 0.54161406}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5393cd107e062444bb448fd446e7ecc
+      internalID: -235538615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baile-victoria_5
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 880
+        width: 500
+        height: 440
+      alignment: 9
+      pivot: {x: 0.9394431, y: 0.5450817}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcedbdf54e5e5374db90b86b515c081a
+      internalID: -1096795905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baile-victoria_6
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 880
+        width: 500
+        height: 440
+      alignment: 9
+      pivot: {x: 0.9333396, y: 0.545082}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de143a1de49af6a44b658cc7249b1e20
+      internalID: -402782559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baile-victoria_7
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 880
+        width: 500
+        height: 440
+      alignment: 9
+      pivot: {x: 0.93028784, y: 0.5450817}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73532689af632c64885a7efccd2546bc
+      internalID: 2130912301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baile-victoria_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 440
+        width: 500
+        height: 440
+      alignment: 9
+      pivot: {x: 0.93966717, y: 0.5481681}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58f096ba4d080814fb5515954a12ba7f
+      internalID: -1253323918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baile-victoria_9
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 440
+        width: 500
+        height: 440
+      alignment: 9
+      pivot: {x: 0.9395553, y: 0.5416142}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4826745bfae9c0746b781cbea106b9d5
+      internalID: 1375137999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baile-victoria_10
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 440
+        width: 500
+        height: 440
+      alignment: 9
+      pivot: {x: 0.9350791, y: 0.54008734}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed7bb79e05abd874a81af1501f3a48cb
+      internalID: -457158539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baile-victoria_11
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 440
+        width: 500
+        height: 440
+      alignment: 9
+      pivot: {x: 0.92626, y: 0.54008734}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a6a65be0ba2ff742869408dd9ef991e
+      internalID: 2028597303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baile-victoria_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 500
+        height: 440
+      alignment: 9
+      pivot: {x: 0.93881404, y: 0.5418493}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a7c8d4fe6870e4ca9f3526782ac717
+      internalID: -772528093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baile-victoria_13
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 500
+        height: 440
+      alignment: 9
+      pivot: {x: 0.93419665, y: 0.5427954}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e425009fe05db8c40b8aa105e9386a80
+      internalID: 261588630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baile-victoria_14
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 500
+        height: 440
+      alignment: 9
+      pivot: {x: 0.9319817, y: 0.54279566}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29dc65e749ac70840af33cf386512a90
+      internalID: -1320217370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baile-victoria_15
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 0
+        width: 500
+        height: 440
+      alignment: 9
+      pivot: {x: 0.92755103, y: 0.5478303}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3574638b415a674fa99726efb7993b3
+      internalID: -1004575023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: c1a4962f1dc6eb14999af69e539c0a7a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      baile-victoria_0: 1382539995
+      baile-victoria_1: -245741026
+      baile-victoria_10: -457158539
+      baile-victoria_11: 2028597303
+      baile-victoria_12: -772528093
+      baile-victoria_13: 261588630
+      baile-victoria_14: -1320217370
+      baile-victoria_15: -1004575023
+      baile-victoria_2: 869857335
+      baile-victoria_3: 388347873
+      baile-victoria_4: -235538615
+      baile-victoria_5: -1096795905
+      baile-victoria_6: -402782559
+      baile-victoria_7: 2130912301
+      baile-victoria_8: -1253323918
+      baile-victoria_9: 1375137999
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

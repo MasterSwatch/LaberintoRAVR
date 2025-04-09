@@ -14,14 +14,14 @@ public class PlayerController : MonoBehaviour //monobehaviour significa que trab
     }
 
     // Update is called once per frame
-    void Update()
+    void Update() // accion que realiza por frame
     {
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveZ = Input.GetAxisRaw("Vertical");
         moveInput = new Vector3(moveX, 0, moveZ);
 
     }
-    private void FixedUpdate()
+    private void FixedUpdate() // la actualización arreglada
     {
         playerb.MovePosition(playerb.position + moveInput.normalized * speed * Time.fixedDeltaTime); // movimiento fluido
     }

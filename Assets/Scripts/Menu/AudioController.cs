@@ -17,9 +17,78 @@ public class AudioController : MonoBehaviour
     {
         audioMixer = Resources.Load<AudioMixer>("MainMixed");
     }
+    public float GetLevel(string bus)
+    {
+        float value;
+        bool result = audioMixer.GetFloat(bus, out value);
+        if (result)
+        {
+            return value;
+        }
+        else
+        {
+            return 0f;
+        }
 
-    //public float GetLevel(string bus)
-    // Update is called once per frame
+    }
+    public void MasterVolume(Slider volumen)
+    {
+        audioMixer.SetFloat("Master", volumen.value);
+    }
+    public void MusicVolume(Slider volumen)
+    {
+        audioMixer.SetFloat("Musica", volumen.value); // son los nombres que expusimos en el mixer
+    }
+    public void SoundVolume(Slider volumen)
+    {
+        audioMixer.SetFloat("Sonidos", volumen.value);
+    }
+
+    public void MasterMute()
+    {
+        if (masterMute)
+        {
+            masterMute = false;
+            audioMixer.SetFloat("Master", previusMaster);
+        }
+        else
+        {
+            masterMute = true;
+            previusMaster = GetLevel("Master");
+            audioMixer.SetFloat("Master", -80);
+        }
+    }
+    public void SoundMute()
+    {
+        if (soundMute)
+        {
+            soundMute = false;
+            audioMixer.SetFloat("Sonidos", previusSound);
+        }
+        else
+        {
+            soundMute = true;
+            previusSound = GetLevel("Sonidos");
+            audioMixer.SetFloat("Sound", -80);
+        }
+    }
+    public void MusicMute()
+    {
+        if (musicMute)
+        {
+            musicMute = false;
+            audioMixer.SetFloat("Musica", previusMusic);
+        }
+        else
+        {
+            musicMute = true;
+            previusMusic = GetLevel("Musica");
+            audioMixer.SetFloat("Musica", -80);
+        }
+    }
+
+
+
     void Update()
     {
 
